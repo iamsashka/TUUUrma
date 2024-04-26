@@ -96,12 +96,12 @@ public class Main {
         return df.format(new Date(releaseYear - 1900, releaseMonth - 1, releaseDay));
     }
 
-    public static void searchPrisonerLocation(String inmateName) {
+    public void searchPrisonerLocation(String inmateName) {
         // Логика поиска местоположения заключенного
         System.out.println("Местоположение заключенного " + inmateName + ": Блок X, камера Y.");
     }
 
-    public static void assignGuardToArea(String guardName, String area) {
+    public void assignGuardToArea(String guardName, String area) {
         // Логика назначения охранника на определенную зону
         System.out.println("Охранник " + guardName + " назначен на зону: " + area);
     }
